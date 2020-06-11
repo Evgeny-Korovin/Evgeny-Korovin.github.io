@@ -1,0 +1,158 @@
+@media screen and (max-width: 1023px) {
+    
+    .container {
+        width: 90%;
+     }
+     .services__item {
+         float: none;
+         width: 100%;
+         margin: 0;
+         margin-bottom: 50px;
+     }
+     .services__item:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .works img {
+        float: none;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .works img:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .events__item__textblock__left {
+        width: 50%;
+    }
+
+    .imgwrap__right {
+        width: 30%;
+        margin-right: 20px;
+     }
+
+     .events__item__textblock__right {
+        width: 50%;
+    }
+
+    .imgwrap__left {
+        width: 30%;
+        margin-left: 20px;
+     }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    
+    .logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        padding-top: 41px;
+        
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .titles__first {
+        font-size: 24px;
+        margin-top: 80px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin: 5px;
+    }
+
+    .title {
+        padding-top: 50px;
+    }
+
+    .title h2 {
+        font-size: 24px;
+    }
+
+    header {
+        padding-bottom: 90px;
+    }
+
+    #services {
+        padding-bottom: 50px;
+    }
+
+    #portfolio {
+        padding-bottom: 50px;
+    }
+
+    #copy {
+        padding-bottom: 50px;
+    }
+
+    .events__item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .events__item {
+        display: table;
+    }
+
+    .events__item__textblock__left {
+        float: none;
+        width: 100%;
+        display: table-row-group;
+    }
+
+    .events__item__textblock__right {
+        float: none;
+        width: 100%;
+        display: table-row-group;
+    }
+
+    .imgwrap__right {
+        float: none;
+        margin: 0 auto;
+        display: table-header-group;
+    }
+
+    .imgwrap__left {
+        float: none;
+        margin: 0 auto;
+        display: table-header-group;
+    }
+
+    .imgwrap__right img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .imgwrap__left img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+     .events__item__textblock__left h3 {
+        text-align: center;
+        line-height: 0.5em;
+    }
+    
+    .events__item__textblock__left p {
+        text-align: center;
+        line-height: 1.3em;
+    }
+
+    .events__item__textblock__right h3 {
+        text-align: center;
+        line-height: 0.5em;
+    }
+    
+    .events__item__textblock__right p {
+        text-align: center;
+        line-height: 1.3em;
+    }
+
+}
